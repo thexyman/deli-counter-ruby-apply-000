@@ -4,9 +4,10 @@ katz_deli = []
 
 
 def take_a_number(array)
-  ticket_no = array.pus
-  array.push(1)
-  puts "Welcome! You're ticket number #{}"
+  ticket_no = 1
+  array.push(ticket_no)
+  puts "Welcome! You're ticket number #{ticket_no}"
+  ticket_no += 1
 end
 
 # take_a_number(array) => "Welcome! You're ticket number #1" [1]
