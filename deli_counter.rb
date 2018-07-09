@@ -1,13 +1,12 @@
 # Write your code here.
 
 katz_deli = []
-
+$ticket_no = 1
 
 def take_a_number(array)
-  ticket_no = 1
-  array.push(ticket_no)
-  puts "Welcome! You're ticket number #{ticket_no}"
-  ticket_no += 1
+  array.push($ticket_no)
+  puts "Welcome! You're ticket number #{$ticket_no}"
+  $ticket_no += 1
 end
 
 # take_a_number(array) => "Welcome! You're ticket number #1" [1]
