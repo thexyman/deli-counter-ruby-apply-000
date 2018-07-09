@@ -4,7 +4,7 @@ katz_deli = []
 
 
 def take_a_number(array)
-  ticket_no = array.push(-1)
+  ticket_no = array.pus
   array.push(1)
   puts "Welcome! You're ticket number #{}"
 end
