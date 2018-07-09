@@ -2,6 +2,19 @@
 
 katz_deli = []
 
+
+def take_a_number(array)
+  people_in = array += 1
+end
+
+# take_a_number(array) => "Welcome! You're ticket number #1" [1]
+# take_a_number(array) => "Welcome! you're ticket number #2" [1,2]
+
+# now_serving(array) => "Currently serving: #1" [2]
+# now_serving(array) => "Currently serving: #2" []
+
+# take_a_number(array) => "Welcome! You're ticket number #3" [3]
+
 def take_a_number(array, person)
   array.push(person)
   puts "Welcome, #{person}. You are number #{array.length} in line."
